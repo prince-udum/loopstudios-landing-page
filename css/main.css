@@ -407,6 +407,8 @@ footer .nav-links a {
     left: 0;
     padding: 0;
     display: flex;
+    visibility: visible;
+    opacity: 1;
   }
 
   .nav-links-container .nav-header {

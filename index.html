@@ -238,10 +238,12 @@
 
     openMenu.addEventListener("click", () => {
       mobileMenu.classList.add("show-nav");
+      document.body.style.overflow = "hidden";
     });
 
     closeMenu.addEventListener("click", () => {
       mobileMenu.classList.remove("show-nav");
+      document.body.style.overflow = "visible";
     });
 
     date.innerText = new Date().getFullYear();
